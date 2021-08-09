@@ -1,6 +1,7 @@
 let randomNumber = Math.floor(Math.random()*3);
 let joke = '';
-swtich (randomNumber); { 
+//console.log (randomNumber);
+switch (randomNumber) { 
     case 0 : 
     joke = 'Why did Stalin cross the road? .... because he was Russi\'n';
     break;
@@ -13,3 +14,4 @@ swtich (randomNumber); {
     default: 
     joke = "Error";
 };
+console.log(joke);
